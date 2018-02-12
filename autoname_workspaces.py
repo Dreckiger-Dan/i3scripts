@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# original script from https://github.com/justbuchanan/i3scripts
 # This script listens for i3 events and updates workspace names to show icons
 # for running programs.  It contains icons for a few programs, but more can
 # easily be added by adding them to WINDOW_ICONS below.
@@ -54,6 +55,7 @@ WINDOW_ICONS = {
     'feh': fa.icons['picture-o'],
     'firefox': fa.icons['firefox'],
     'google-chrome': fa.icons['chrome'],
+    'chromium': fa.icons['chrome'],
     'gpick': fa.icons['eyedropper'],
     'kicad': fa.icons['microchip'],
     'libreoffice': fa.icons['file-text-o'],
@@ -66,6 +68,9 @@ WINDOW_ICONS = {
     'urxvt': fa.icons['terminal'],
     'xfce4-terminal': fa.icons['terminal'],
     'zenity': fa.icons['window-maximize'],
+    'keepass2': fa.icons['key'],
+    'evolution': fa.icons['envelope'],
+    'nautilus': fa.icons['folder-open'],
 }
 
 # This icon is used for any application not in the list above
